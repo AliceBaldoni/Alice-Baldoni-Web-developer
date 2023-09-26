@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400&family=Montserrat:wght@100;200;300;400;500&family=Turret+Road:wght@200;300;400;500&display=swap');
+
+:root {
+    --cortema1: #c79fca;
+    --rgbacor1: rgba(199,159,202,0.6);
+    --cortema2: #131211;
+    --cortema3: #E9CAE5;
+    --cortema4: #ffffff;
+    --cortema5: #000000;
+    --fonte1: 'Montserrat', sans-serif;
+    --fonte2: 'Montserrat Alternates', sans-serif;
+    --fonte3: 'Turret Road', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    font-size: 100%;
+    background-image: url(/assets/abstract-background-6556364.jpg);
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100%;
+}
+
+.containers {
+    display: flex;
+}
+
+.bloco_vertical {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--rgbacor1);
+    padding: 3%;
+    gap: 8.5%;
+    height: 100vh;
+}
+
+.bloco_marca {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_layout {
+    height: 150px;
+    width: 150px;
+}
+
+.marca {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.marca_layout {
+    font-family: var(--fonte1);
+    font-weight: 100;
+    font-size: 2.25rem;
+}
+
+.slogan_layout {
+    font-family: var(--fonte2);
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.bloco_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.menu_layout {
+    font-family: var(--fonte3);
+    font-weight: 200;
+    font-size: 1.38rem;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: var(--cortema2);
+    padding: 0 10%;
+}
+
+.menu_layout:hover {
+    color: var(--cortema4);
+    border-color: var(--cortema4);
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+
+.texto_layout {
+    font-family: var(--fonte2);
+    font-size: 3.13rem;
+    font-weight: 300;
+    color: var(--cortema2);
+}
+
+.bloco_conteudo {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 0px 150px;
+    gap: 50px;
+}
+
+.destaque_texto {
+    font-family: var(--fonte1);
+    font-size: 3.75rem;
+    font-weight: 200;
+    color: var(--cortema2);
+}
+
+.sub_texto_bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.sub_texto {
+    font-family: var(--fonte1);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--cortema2);
+}
+
+.botao {
+    font-family: var(--fonte1);
+    color: var(--cortema2);
+    font-size: 1.5rem;
+    font-weight: 300;
+    background-color: #E9CAE5;
+    padding: 15px 30px;
+}
+
+.botao:hover {
+    color: var(--cortema4);
+    border-color: var(--cortema4);
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+
+@media (max-width: 1000px) {
+    .logo_layout {
+        height: 80px;
+        width: 80px;
+    }
+    .marca_layout {
+        font-weight: 200;
+        font-size: 1.63rem;
+    }
+    
+    .slogan_layout {
+        font-weight: 200;
+        font-size: 1.13rem;
+    }
+    .menu_layout {
+        font-size: 1rem;
+    }
+    .texto_layout {
+        font-size: 2rem;
+    }
+    .bloco_conteudo {
+        padding: 100px 0px 0px 50px;
+    }
+    .destaque_texto {
+        font-size: 2.25rem;
+    }
+    .sub_texto {
+        font-size: 1.25rem;
+    }
+    .botao {
+        font-size: 1rem;
+    }
+}

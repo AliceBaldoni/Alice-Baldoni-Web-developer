@@ -226,14 +226,27 @@ body {
     }
     .marca_layout {
         font-weight: 200;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     .slogan_layout {
         font-weight: 200;
-        font-size: 0.70rem;
+        font-size: 0.6rem;
     }
     .menu_layout {
-        font-size: 0.70rem;
+        font-size: 0.6rem;
+    }
+    .texto_layout {
+        font-size: 1.2rem;
+    }
+    .destaque_texto {
+        font-size: 1.35rem;
+    }
+    .sub_texto {
+        font-size: 0.9rem;
+    }
+    .botao {
+        font-size: 0.6rem;
+        padding: 5px 10px;
     }
 }

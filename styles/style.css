@@ -226,11 +226,14 @@ body {
     }
     .marca_layout {
         font-weight: 200;
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
     
     .slogan_layout {
         font-weight: 200;
-        font-size: 0.77rem;
+        font-size: 0.70rem;
+    }
+    .menu_layout {
+        font-size: 0.70rem;
     }
 }
